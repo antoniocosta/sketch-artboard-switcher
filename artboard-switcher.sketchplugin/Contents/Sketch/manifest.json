@@ -1,0 +1,33 @@
+{
+  "author" : "Antonio Costa",
+  "commands" : [
+    {
+      "script" : "artboard-switcher.cocoascript",
+      "handler": "switch_prev",
+      "shortcut" : "command shift [",
+      "name" : "Switch to Previous Artboard",
+      "identifier" : "1_switch_prev_artboard"
+    },
+    {
+      "script" : "artboard-switcher.cocoascript",
+      "handler": "switch_next",
+      "shortcut" : "command shift ]",
+      "name" : "Switch to Next Artboard",
+      "identifier" : "2_switch_next_artboard"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "1_switch_prev_artboard",
+      "2_switch_next_artboard"
+    ],
+    "title" : "Artboard Switcher"
+  },
+  "homepage" : "https://github.com/antoniocosta/sketch-artboard-switcher",
+  "identifier" : "me.antoniocosta.sketch.artboard-switcher",
+    "compatibleVersion": "3.3",
+  "version" : "1.0",
+  "description" : "Quickly switch to next/previous artboard. Useful for editing across multiple artboards/views and presenting.",
+  "authorEmail" : "antonio.costa@gmail.com",
+  "name" : "Artboard Switcher"
+}
