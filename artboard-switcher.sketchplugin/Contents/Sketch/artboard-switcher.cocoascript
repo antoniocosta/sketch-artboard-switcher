@@ -2,7 +2,8 @@ var switch_prev = function (context) {
   var doc = context.document;
   var selection = context.selection;
   var page = [doc currentPage];
-  var view = [doc currentView];
+//  var view = [doc currentView];
+  var view = [doc contentDrawView];
 
   var target_artboard;
 
@@ -52,7 +53,8 @@ var switch_next = function (context) {
   var doc = context.document;
   var selection = context.selection;
   var page = [doc currentPage];
-  var view = [doc currentView];
+//  var view = [doc currentView];
+  var view = [doc contentDrawView];
 
   var target_artboard;
 
